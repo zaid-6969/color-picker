@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.t-shirt {
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+@media(max-width: 425px){
+    .t-shirt{
+        width: 100%;
+        height: auto;
+        /* box-shadow: inset black; */
+    }   
+}
